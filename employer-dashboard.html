@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Dashboard</title>
+    <link rel="stylesheet" href="employerdas.css">
+    <script src="employerdas.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="job-listings.html">Job Listings</a>
+            <a href="candidate-dashboard.html">Candidate Dashboard</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search jobs..." id="search-bar">
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <section class="account-management">
+            <h2>Account Management</h2>
+            <div class="account-details">
+                <h3>Company Profile</h3>
+                <p>Manage your company information</p>
+                <button>Edit Profile</button>
+            </div>
+            <div class="account-details">
+                <h3>Password</h3>
+                <p>Change your password</p>
+                <button>Change Password</button>
+            </div>
+            <div class="account-details">
+                <h3>Contact Details</h3>
+                <p>Update your contact information</p>
+                <button>Edit Contact Details</button>
+            </div>
+        </section>
+
+        <section class="job-posting">
+            <h2>Your Job Postings</h2>
+            <button onclick="location.href='post-job.html'">Post a Job</button>
+            <div class="job-listing">
+                <div>
+                    <h3>Software Engineer</h3>
+                    <p>San Francisco, CA</p>
+                    <p>Status: Active</p>
+                </div>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+            <div class="job-listing">
+                <div>
+                    <h3>Data Scientist</h3>
+                    <p>New York, NY</p>
+                    <p>Status: Active</p>
+                </div>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+            <!-- More job listings -->
+        </section>
+    </main>
+
+    <footer>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="terms.html">Terms of Use</a>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>

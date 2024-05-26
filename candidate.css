@@ -1,0 +1,95 @@
+/* Reset and General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    height: 40px;
+  }
+  
+  .nav {
+    margin-left: auto;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .active .nav-link {
+    font-weight: bold;
+  }
+  
+  /* Search Box Styles */
+  .header-search {
+    margin-left: auto;
+  }
+  
+  .search-box {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main Styles */
+  .main {
+    padding: 20px 0;
+  }
+  
+  .dashboard {
+    margin-top: 20px;
+  }
+  
+  .profile, .job-applications {
+    margin-bottom: 30px;
+  }
+  
+  .profile h2, .job-applications h2 {
+    margin-bottom: 10px;
+  }

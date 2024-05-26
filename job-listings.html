@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="joblisting.css">
+    <script src="joblisting.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="employer-dashboard.html">Employer Dashboard</a>
+            <a href="candidate-dashboard.html">Candidate Dashboard</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search jobs..." id="search-bar">
+        </div>
+    </header>
+
+    <section class="filter-sort">
+        <select id="filter-category">
+            <option value="">Filter by Category</option>
+            <option value="software">Software</option>
+            <option value="data-science">Data Science</option>
+            <option value="design">Design</option>
+            <option value="marketing">Marketing</option>
+        </select>
+        <select id="sort-by">
+            <option value="">Sort by</option>
+            <option value="relevance">Relevance</option>
+            <option value="date-posted">Date Posted</option>
+            <option value="salary">Salary</option>
+        </select>
+    </section>
+
+    <section class="job-listings">
+        <h2>Job Listings</h2>
+        <div class="job-listing">
+            <div>
+                <h3>Software Engineer</h3>
+                <p>Company A - San Francisco, CA</p>
+                <p>Build and maintain software applications...</p>
+            </div>
+            <button>View Job</button>
+        </div>
+        <div class="job-listing">
+            <div>
+                <h3>Data Scientist</h3>
+                <p>Company B - New York, NY</p>
+                <p>Analyze and interpret complex data...</p>
+            </div>
+            <button>View Job</button>
+        </div>
+        <!-- More job listings -->
+    </section>
+
+    <div class="pagination">
+        <button>Previous</button>
+        <button>Next</button>
+    </div>
+
+    <footer>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="terms.html">Terms of Use</a>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
+

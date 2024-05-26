@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="candidate.css">
+  <title>Candidate Dashboard</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-logo">
+        <a href="index.html"><img src="logo.png" alt="Job Portal Logo"></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="job-listings.html" class="nav-link">Job Listings</a></li>
+          <li class="nav-item"><a href="employer-dashboard.html" class="nav-link">Employer Dashboard</a></li>
+          <li class="nav-item active"><a href="candidate-dashboard.html" class="nav-link">Candidate Dashboard</a></li>
+        </ul>
+      </nav>
+      <div class="header-search">
+        <input type="text" class="search-box" placeholder="Search for jobs...">
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="header-theme">
+        <button id="theme-btn" class="theme-btn far fa-moon"></button>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main">
+    <section class="dashboard">
+      <div class="container">
+        <h1>Candidate Dashboard</h1>
+        <div class="profile">
+          <h2>Profile Information</h2>
+          <!-- Profile information goes here -->
+          <p>Name: John Doe</p>
+          <p>Email: john@example.com</p>
+          <p>Skills: HTML, CSS, JavaScript</p>
+          <p>Experience: 2 years</p>
+        </div>
+        <div class="job-applications">
+          <h2>Job Applications</h2>
+          <!-- List of job applications goes here -->
+          <div class="job-application">
+            <h3>Software Engineer</h3>
+            <p>Company: ABC Tech</p>
+            <p>Status: In review</p>
+          </div>
+          <div class="job-application">
+            <h3>Data Analyst</h3>
+            <p>Company: XYZ Corp</p>
+            <p>Status: Accepted</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Job Portal. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

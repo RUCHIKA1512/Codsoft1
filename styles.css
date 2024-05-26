@@ -1,0 +1,274 @@
+/* Header Styles */
+.header {
+    background-color: #1D1E22;
+    color: #eee;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+ 
+    width: 200px;
+     
+    height: 100px;
+     
+    }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header-logo {
+    flex-basis: 200px;
+  }
+  
+  .nav {
+    flex-basis: 600px;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #eee;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #333;
+  }
+  
+  .header-search {
+    flex-basis: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-box {
+    border: none;
+    background-color: #333;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Hero Section Styles */
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    /* Background styles */
+    background-color: rgba(147, 112, 219, 0.8);
+  }
+
+  /* Featured Job Listings Section Styles */
+.featured-jobs {
+    background-color: var(--container-dark-background);
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .featured-jobs h2 {
+    color: var(--anchor-dark-text);
+    margin-bottom: 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .job-listing {
+    background-color: var(--container-dark-background);
+    padding: 20px;
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-listing h3 {
+    color: var(--anchor-dark-text);
+    margin-bottom: 10px;
+  }
+  
+  .job-listing p {
+    color: var(--para-dark-text);
+    margin-bottom: 10px;
+  }
+  
+  .job-listing .btn {
+    background-color: var(--anchor-dark-bg);
+    color: var(--anchor-dark-text);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-listing .btn:hover {
+    background-color: var(--anchor-dark-bg-hover);
+    color: var(--anchor-dark-text-hover);
+  }
+
+  /* Call-to-Action Section Styles */
+.call-to-action {
+    background-color: var(--container-dark-background);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    color: var(--anchor-dark-text);
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action p {
+    color: var(--para-dark-text);
+    margin-bottom: 30px;
+  }
+  
+  .call-to-action .btn {
+    background-color: var(--anchor-dark-bg);
+    color: var(--anchor-dark-text);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .call-to-action .btn:hover {
+    background-color: var(--anchor-dark-bg-hover);
+    color: var(--anchor-dark-text-hover);
+  }
+
+  /* Footer Section Styles */
+  .centered-text {
+    text-align: center;
+  } 
+.footer {
+    background-color: var(--container-dark-background);
+    padding: 40px;
+    color: var(--para-dark-text);
+  }
+  .centered-text {
+    text-align: center;
+  } 
+  .footer h4 {
+    color: var(--anchor-dark-text);
+    margin-bottom: 20px;
+  }
+  .centered-text {
+    text-align: center;
+  }  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .centered-text {
+    text-align: center;
+  }   
+  .footer li {
+    margin-bottom: 10px;
+  }
+  .centered-text {
+    text-align: center;
+  } 
+  .footer a {
+    color: var(--anchor-dark-text);
+    text-decoration: none;
+  }
+  .centered-text {
+    text-align: center;
+  } 
+  .footer a:hover {
+    color: var(--anchor-dark-text-hover);
+  }
+  .centered-text {
+    text-align: center;
+  } 
+  .footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }   
+ 
